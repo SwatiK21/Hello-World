@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    border-top: 6px solid #2b9a2e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#custom-nav {
+    border-top: 4px solid #2b9a2e;
+    background: white;
+    height: 80px;
+}
+
+#custom-nav-item{
+    position: relative;
+    top: 40px;
+    right: 100px;
+}
+#logo{
+    height:35px;
+    margin-left: 80px;
+    position: relative;
+}
+
+#call-us {
+    float: right;
+}
+
+#list_nav{
+    position: absolute;
+    right: 125px;
+    z-index: 2;
+    top: -3px;
+}
+
+.list_nav_item {
+    display: inline;
+}
+
+#list_search {
+    position: relative;
+    left: 25px;
+}
+
+#search_box:placeholder-shown {
+    border:none;
+    padding: 5px;
+    font-style: italic;
+    background: #ebebeb;
+}
+
+#search_icon{
+    position: relative;
+    right: 35px;
+    top: 8px;
+    color: #2b9a2e;
+}
+
+#phone {
+    font-size: small;
+    position: relative;
+    top: 1px;
+    padding-right: 5px;
+}
+
+.nav_right_list_item {
+    padding-left: 40px;
+}
+
+#carousel_text {
+    position: absolute;
+    top: 300px;
+}
+#product_row_1 {
+    padding: 50px 0 20px;
+    border: 1px solid #bcbcbc;
+    border-width: 1px 0;
+    margin-top: 20px;
+    color: green;
+}
+
+.product_row_icon {
+    font-size: 60px;
+}
+
+#product_row_2 {
+    margin-top: 30px;
+}
+
+#products {
+    position: relative;
+    top: 15px;
+    font-size: small;
+    font-weight: bold;
+}
+#horizontal_line{
+    color: black;
+    height: 5px;
+}
+
+.image_text{
+    text-align: center;
+    font-size: small;
+    padding-top: 12px;
+}
+.image_button{
+    font-size: small;
+    position: relative;
+    left: 40px;
+    background: transparent;
+    border: 1px solid green;
+    border-radius: 8px;
+}
+
+/*.cert{
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    font-color: white;
+    background: green;
+}
+*/
+.cert {
+    border-radius: 5px 5px 0 0;
+    padding: 3px;
+    width: 300px;
+    background: #2b9a2e;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#companies {
+    background: lightgray;
+    height: 100px;
+}
+
+.img-style {
+    height: 250px;
+    width: 330px;
+}
